@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="assets/css/main.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: top;
+  background-size: cover;
+  background-image: url("assets/img/home5.png");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#men" class="w3-button w3-block w3-black">MEN</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#women" class="w3-button w3-block w3-black">WOMAN</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#info" class="w3-button w3-block w3-black">INFO</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">Open from 6am to 5pm</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-red" style="font-size:60px">CEV Continental Cup</span>
+    <p class="w3-text-red">#ROADTOTOKYO</p>
+    <!-- <img  src="assets/img/home3.png"> -->
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white">15 Adr street, 5015</span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+<!-- CEV Beach Volleyball Continental Cup -->
+ 
+<!-- About Container -->
+<div class="w3-container" id="men">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">MEN</span></h5>
+    <div class="mxgraph" style="max-width:100%;border:1px solid transparent;" data-mxgraph="{&quot;highlight&quot;:&quot;#0000ff&quot;,&quot;nav&quot;:true,&quot;toolbar&quot;:&quot;layers lightbox&quot;,&quot;edit&quot;:&quot;_blank&quot;,&quot;xml&quot;:&quot;&lt;mxfile modified=\&quot;2019-05-24T19:46:39.112Z\&quot; host=\&quot;www.draw.io\&quot; agent=\&quot;Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36\&quot; etag=\&quot;xlYW8cXy7Ky4Xu9f1pWZ\&quot; version=\&quot;10.6.8\&quot; type=\&quot;google\&quot;&gt;&lt;diagram id=\&quot;Ss-8ob18OZmgthQvd1sw\&quot; name=\&quot;Page-1\&quot;&gt;5VxLc6M4EP41rto9TAr0Ah8nj8keZqpSlcPMHolRbGowuDCZOPvrVxiJh4QDMQ8pOJegBhrcX3fzddP2At5sD/eJt9v8iH0aLoDlHxbwdgGATSzC/mWSt1ziEJwL1kng84NKwWPwH+VCi0tfAp/uawemcRymwa4uXMVRRFdpTeYlSfxaP+w5DutX3XlrqggeV16oSn8GfrrJpS5wSvk/NFhvxJVtssz3bD1xMP8k+43nx68VEbxbwJskjtN8a3u4oWFmPGGX/LxvJ/YWN5bQKO1yArkNf317IPDL3dP99/vNg03oyxeu5Y8XvvAPzG82fRMWSOKXyKeZEmsBr183QUofd94q2/vKMGeyTboN2cpmm1wdTVJ6OHmfdvHpmdvQeEvT5I0dwk9A3F7cYYDF16+l+W1h003F9ITLPI74utBcGoVtcLt8wEZgYBs9B2F4E4dxcjwX+h51n1dMvk+T+Det7CErlz49j2PVJdBsVdhuVRr5X7MQZqsojmjdivQQpL8q2/9mxr/CfHV74FgcF298kV+B+krIS1ZkdxG/JCvaFjiqtSvmxA3WFLKEhl4a/KnfRpOJ+RUe4oDdYAFmgYpAE0so5bfPz6rmBFmR7BZQUpR6yZqmiqIj4sXHPt8JUE8n6A5o/kHaolwboBIOEJwJqI0lRdbyCk8KKZ4I0k8Ple7YI30TcMSu/0uk2WxRScHZsszBx9XHk3BrzNqWSZ4AnDM9AVotikb2BMG1K65wz3gyjZjsh5euNovMx0nIzHf9lLCtdbb1V/DM5BGljPj8rbjO1KwR2pINBTjaCI5tPrdG2rm1PUdyjZbazfrZ2bVR9BoNRa/RxI942yB+bRtFsPFQBBtbeGKCbV8awz4bK+3hNweK7ZjkCmgoiq0oGtsVnAZXyBn1fudFglN/nHbnu9k9VdUoXqabjSP9bNztG4uaGZHWUhfJpS5R2kpdIxHLxa6qauxYXBrsCtoQhgNlWhlfNDm+Iq/MliApITQYVhM/FUGHFslk/X+t9YmMBHTPhZS0KBobUqBA+jOIIppkpMbOdjSymvIY1QOmJi+KCbFu8gKa6niVPSqGJt42M0/0tN8dTXOCLMpgvK8bjEI6tfTtZKT101TQu2TUS1P1ZlHHPhG5H82ijvySb+os2lQufiY3QDrdgCwl9JYDucHk/KipaJ1v18BxJXNrfz0F+paKXWNKW8ZsS3SfJVRE+WpEKeGaBKnS9e4MqcyO5DQ6NqRqdViwUHbd/THRiYMqMLMElNaxrZNIjn2VcXKRFwbriC1XDHJ2GXidpbNg5YVf+Y5t4PvZZRqTYT1djpAPi+Bsy4fyC5PhhjbV6k48c2aMgxRQtn4Y1Nf7lwcDcIBuGNSyXMCgPnzmCoMBSUmtmS8PhoJv6YNBrVkFDHC+MCjNQqgdB7VovEAcENCOg1o7fo/39f6sVKUX+0FTU1ZzdY7smoGJBcV7PW3luciBLf2RZrOf1QZXEfr8XXAZ2KUBwPZ9Mai5/5nHvrapKSIhiuG50xqKc0B4hZbln1tXO/bXxdTy82Nu0R3i1iYP0jqQI+PigHdx6T7dKqm1ltMC3HduvSvAM8PNsDDtO3ZuwNwrwia5CXEGcRNoqWqnnc1CTcPr832jBW3J4MgAbnW6XYIUg82mPpQCCrudgRitQESnGyaXA0QlBekDQu2YiDqvfM80Y0jkaX2ne2k/Hia9h7RH5xCtVaB42LWSDay1lsDSV9pcWwL13HFi4qBJyQVW20FFvwYuGjtu5VgjMrDlhuVC3gD6ICpEM4ysaWxUKuKgAbD0bY1o7pjpTYGOe7IH2ncQihGcaZPgVC2ULs81o2bbHILOg5Q4UryjabtieKqv8etDSjIwGaTdIatt6aKMjWLf7+0b0BXDxCg3sQdxE9dS1U78m2lN3/qYb1dMnmsk3Zsx4/Gn080YrBhsNpW/UmAA/ZU/Pj2/ckFIVJKQPiTUHkzDALb6FJsNKEqiIvpBEX7ybrNyxoNeMiZO957IGZiwZfkL3fnjvvydc3j3Pw==&lt;/diagram&gt;&lt;/mxfile&gt;&quot;}"></div>
+<script type="text/javascript" src="https://www.draw.io/js/viewer.min.js"></script>
+  </div>
+</div>
+
+<!-- Menu Container -->
+<div class="w3-container" id="women">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">WOMEN</span></h5>
+  <div class="mxgraph" style="max-width:100%;border:1px solid transparent;" data-mxgraph="{&quot;highlight&quot;:&quot;#0000ff&quot;,&quot;lightbox&quot;:false,&quot;nav&quot;:true,&quot;toolbar&quot;:&quot;layers&quot;,&quot;edit&quot;:&quot;_blank&quot;,&quot;xml&quot;:&quot;&lt;mxfile modified=\&quot;2019-05-24T20:28:40.056Z\&quot; host=\&quot;www.draw.io\&quot; agent=\&quot;Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36\&quot; etag=\&quot;QPIhOSpm3T05zwKnY44X\&quot; version=\&quot;10.6.8\&quot; type=\&quot;google\&quot;&gt;&lt;diagram id=\&quot;MdVryoS7M4lzGsO0k9vR\&quot; name=\&quot;Page-1\&quot;&gt;7VtNc9owEP01zLSHZizJXxyTNE0PpdNOOtP0qNgC1BqLGhGgv74ylrAtkWJIbAFpLrFW9kp+b3elXZkeup4sbzM8HQ9YTJIedOJlD73vQQiQ74l/uWRVSHzPKQSjjMbyplJwR/8QKVS3zWlMZrUbOWMJp9O6MGJpSiJek+EsY4v6bUOW1Eed4hExBHcRTkzpdxrzcSENYVDKPxI6GquRgd8veiZY3SzfZDbGMVtUROimh64zxnhxNVlekyQHT+FSPPfhid7NxDKS8iYP3E+/PeIVvSXzwWz69efvZDAYvZNaHnEyly8sJ8tXCoGMzdOY5EqcHrpajCknd1Mc5b0LwbmQjfkkES0gLqU6knGyfHKeYPP2wmwImxCercQt8gFX4iUNBqj2ooQfKEzHFeh9KcOS8dFGcwmKuJC47IERfGGMhjRJrlnCsvWzKMYkHEZCPuMZ+0UqPX4UkodhK6hCBC2jinajStL4Mndh0UpZSuookiXl95XrHzn4F55svV9KLtaNlWwUI5DYcHkNRTELNs8isstxTLQrcHpb0FSyjCSY08f6NLZBLEf4wqiY4IbMDSvKR/oaS8X05VPVmKArgpqiQFPEcTYi3FC0Znzz2ocbgftMI2hOaPEiu7zcGqEaD9AHhxEKPE2R27/wOqXU64jS46HqRH3Pf24ATsX49yrM5o1KCM6bZQxet/YPwjt9NjgqQwCHGkK4Q1HLhhAYhnArdskkFbIB5tG4l7+onwj0rh4ycTXKr97QoZCnhIhtz1vDcLreM8K+5kuh7U0jeG4ctLy/separu5ajrGKNXUuV3cuU1XL7gX6hiV8YjOS5e4FcvlW//o8nzys7wFmn3V3c0OguZvtbEIN9g+QfTzJkUgfZtM1Ct0hbifh0ziCgXWOGhQbjjkkFo5sKyb66Amf2zci+r5mGEBT1HI8VKyfqhlUinc2zABo7MEXMgPkdGwG2wpARdydTXGqIu/+W9GiW8ypqsb6khlAjTfrBTjYVfHFmqvsCnQn4ypd1VSalMnQUVHqH0qptjtCehhtm1Kz+qL2q2LY2TrOIWSwLOIPr1Nb30NK6qsbTinCCR2lohkJxsUw6CqPZjTCyaXsmNA4zofZGgvr0bKNcNhvGA5ha+HQLIOoJQecLw/6YRtsWDdpj4bwPw3lSmWNBpVsbKHBXHvOhwa9ruFb58FMll4hD9CzzoOZrXynaVovMJ1WCa8eclDoNYO4vQ8CzHzEIsSWanZ1UtzAOiknfoyBrKYrgaPxiQ48xfC1Dz5c0O0ZBnruYXFzSndmoEWcsJeB1pnwnAMp9bQjS7fvdHwwhcyMpx1Sj4cr96Jf+Qtfyhn/qbZtFs2Eac8Ibf87DmT3ZEXn03sRMwmgrrZj9zbPnc+7wI7qcEPbeyeV1G/J3c64smckFn5DHlrL3dynaxmviIdN+LHHg1nLMGveZ1zVCNTKrBhpmnK3xohnZneblLuk5Izrrsai4bRHiWiWP/YpFvnyJ1Po5i8=&lt;/diagram&gt;&lt;/mxfile&gt;&quot;}"></div>
+<script type="text/javascript" src="https://www.draw.io/js/viewer.min.js"></script>
+  </div>
+</div>
+
+<!-- Contact/Area Container -->
+<div class="w3-container" id="info" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">MORE INFO</span></h5>
+    <!-- <p>Find us at some address at some place.
+      <span class="w3-tag"><a href="https://www.google.com/maps/place/SideOut/@51.5615576,-0.0228441,17z/data=!3m1!4b1!4m5!3m4!1s0x48761d9d40795f4f:0xcc55fc7363cf5ce7!8m2!3d51.5615543!4d-0.0206501"> Google Maps</a></span>
+
+    
+
+    </p> -->
+    <!-- <img src="/w3images/map.jpg" class="w3-image" style="width:100%"> -->
+    <p>Venue Address & Directions :</p>
+    <p>🗺️ <span class="w3-tag"><a href="https://www.google.com/maps/place/SideOut/@51.5615576,-0.0228441,17z/data=!3m1!4b1!4m5!3m4!1s0x48761d9d40795f4f:0xcc55fc7363cf5ce7!8m2!3d51.5615543!4d-0.0206501"> Google Maps</a></span></p>
+<p>📍 Feel Good Too Centre, 1 Pavilion Walk, Leyton, London, E10 5UE.</p>
+<p>✅ Public Transport: Access is via Ive Farm Close, E10 5HQ:</p>
+<p>🚇 20-minute walk from Leyton tube station</p>
+<p>🚆15-minute walk from Leyton Midland Road overground station</p>
+<p>🚌Short bus ride from Leyton tube station to 'Villiers Close' bus stop which is a 3-minute walk to the venue:
+bus 158 (every 7-10 mins); or 
+bus 58 (every 10-14 mins).</p>
+<p>👇👇👇👇👇
+For all of you that cannot make it, there will be a live stream (UK only) through our <span class="w3-tag"><a href="https://www.facebook.com/SideOutLtd/"> facebook page</a></span>  and  <span class="w3-tag"><a href="https://www.youtube.com/user/SideOutUK">youtube channel</a></span> so stay tuned!</p>
+
+    <!--  -->
+  </div>
+</div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
