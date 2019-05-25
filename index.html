@@ -1,249 +1,357 @@
 <!DOCTYPE html>
 <html>
-<title>Continental Cup</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="assets/css/main.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
-<style>
-body, html {
-  height: 100%;
-  font-family: "Inconsolata", sans-serif;
-}
+  <title>Continental Cup</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Inconsolata"
+  />
+  <style>
+    body,
+    html {
+      height: 100%;
+      font-family: "Inconsolata", sans-serif;
+    }
 
-.bgimg {
-  background-position: top;
-  background-size: cover;
-  background-image: url("assets/img/home5.png");
-  min-height: 75%;
-}
+    .bgimg {
+      background-position: top;
+      background-size: cover;
+      background-image: url("assets/img/home5.png");
+      min-height: 75%;
+    }
 
-.menu {
-  display: none;
-}
+    .menu {
+      display: none;
+    }
 
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
 
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
+    td,
+    th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
 
-tr:nth-child(even) {
-  background-color: #dddddd;
-}
-</style>
-<body>
-
-<!-- Links (sit on top) -->
-<div class="w3-top">
-  <div class="w3-row w3-padding w3-red">
-    <div class="w3-col s3">
-      <a href="#" class="w3-button w3-block w3-red">HOME</a>
-    </div>
-    <div class="w3-col s3">
-      <a href="#men" class="w3-button w3-block w3-red">MEN</a>
-    </div>
-    <div class="w3-col s3">
-      <a href="#women" class="w3-button w3-block w3-red">WOMEN</a>
-    </div>
-    <div class="w3-col s3">
-      <a href="#info" class="w3-button w3-block w3-red">INFO</a>
-    </div>
-  </div>
-</div>
-
-<!-- Header with image -->
-<header class="bgimg w3-display-container w3-grayscale-min" id="home">
-  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
-    <span class="w3-tag">London 25-26 May</span>
-  </div>
-  <div class="w3-display-middle w3-center">
-    <span class="w3-text-red" style="font-size:50px">CEV Beach Volleyball Continental Cup</span>
-    <p class="w3-text-red">#ROADTOTOKYO</p>
-    <!-- <img  src="assets/img/home3.png"> -->
-  </div>
-  <div class="w3-display-bottomright w3-center w3-padding-large">
-    <span class="w3-text-white">sideout</span>
-  </div>
-</header>
-
-<!-- Add a background color and large text to the whole page -->
-<div class="w3-sand w3-grayscale w3-large">
-<!-- CEV Beach Volleyball Continental Cup -->
- 
-<!-- About Container -->
-<div class="w3-container" id="men">
-  <div class="w3-content" style="max-width:700px">
-    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">MEN</span></h5>
-
-    <table>
-  <tr>
-    <th>Country</th>
-  </tr>
-  <tr>
-    <td>ENGLAND</td>
-  </tr>
-  <tr>
-    <td>SWITZERLAND</td>
-  </tr>
-  <tr>
-    <td>ARMENIA</td>
-  </tr>
-  <tr>
-    <td>BULGARIA</td>
-  </tr>
-</table>
-<br>
-    
-    <div class="mxgraph" style="max-width:100%;" data-mxgraph="{&quot;highlight&quot;:&quot;#0000ff&quot;,&quot;lightbox&quot;:false,&quot;nav&quot;:true,&quot;edit&quot;:&quot;_blank&quot;,&quot;xml&quot;:&quot;&lt;mxfile modified=\&quot;2019-05-24T23:36:09.590Z\&quot; host=\&quot;www.draw.io\&quot; agent=\&quot;Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36\&quot; etag=\&quot;ksjXjYtxwe-mKzdqgTs0\&quot; version=\&quot;10.6.8\&quot; type=\&quot;google\&quot;&gt;&lt;diagram id=\&quot;MdVryoS7M4lzGsO0k9vR\&quot; name=\&quot;Page-1\&quot;&gt;7VrLcpswFP0az7SLZgziuUycNF3UM+24M02XCsigFiOK5Ve/vsIIDBKunyCSNJugK3EF51xdzpU8AKPZ+jGFSTgmPooG+tBfD8D9QNc1YJnsX2bZ5BbLHOaGIMU+H7QzTPAfxI3FsAX20bw2kBISUZzUjR6JY+TRmg2mKVnVh01JVJ81gQGSDBMPRrL1O/ZpmFsd3d7ZPyEchMXMmuXmPTNYDOZvMg+hT1YVE3gYgFFKCM2vZusRijLwClzy+z7u6S0fLEUxPeaGp+TbEm7wI1qM58nXn7+j8Tj4wL0sYbTgLzxByGeWrXWgWxHzffecsqsgu+K9QO7hL0k3BXIpWcQ+yiYfsu5ViCmaJNDLelcsVpgtpLOItbTy7iVKKVrvfT+tRI2FGyIzRNMNG8JvMDjOPNC0or3a0aYVXIQVyixugzxSgtLzDkx2wfE8AVtdwrZAbZ7AWEC0hjebrjqkCey9jsBeJ5fwM8VRNCIRSbf3Ah8iZ+plD0BT8gtVeizPQc/TVhjVga6YUdDAqIAqiv3bLO2wVkxiVEcRrTF9qlz/yMC/MXnrfs252DY2vJHPgHwpTQkosqcgi9RDhxa7jHYFTrMBzcKWoghSvKw/RhPEfIYvBLMHLMksWSnWpyuwlD8+v6uax0RHuuDIFhxRmAaISo62jJevfX4QGBcGwfGE5i9yKMMoI1TgQbe08wjVTMGR4d6YnVJqdkRpf6h6oWvPujQBx2z+pyLNZo1KCs6auxy8bZ2ehA+uWbtXgaCdGwjOAUctB4ItBcIjU/aIqZ3hGFIvHGQvKqqmd3jK7DHTSch/LwVO13pVhFBzVAtWzZVQ/UzmKK2AquUytQFcLj+1/lcGQDnQxWSHgbbgLMMjfp4njYVAjnp91NUp6IP4N2zlpMm18okfH8Xq31X55SnlvrgIL5UgRsdfnoL1lxoGlb0nFWFgC+zpVwoDc9hxGDTtBcibMqerkhY2b1oQKwZQno67qsP7otWlRPdilkpX5fUxOyagV5SeXYcL6sgU02jblMr1V0W4CtyyrEPrhNaFIye8qjK5CUY4iFnTYzwzdQzushyGPRjd8o4Z9v1smsYMWM+RV0iC4gmDfmQOFMm5Xg50/tOQYa6YBiBXBgUNcqZ7rTQAS/VqKI6H3jQNhqmcBlkZf8dx3Li7oWI34xqY2zXMrWM/BO0dTMpiuFeYq9lBqrNka8pZulQIK946AGrFsyWsOvHs6fh6SHBkdiuewaWnWMdTerAeyhOHunpIWKLGmZRqpuBINzs+QgZyRdQOqb3hCrg3buXPudJiNP7ptm0W5YLqxAyt/oAZKN3nl/h0rhMmjuBW/PVQ24EhH42+pe1e69jirjXtVHwZGoo7IMH1eoo7IeqHqos7Y/9WxxuiwW2PBtbc/SQ8z167H9aDh78=&lt;/diagram&gt;&lt;/mxfile&gt;&quot;}"></div>
-<script type="text/javascript" src="https://www.draw.io/js/viewer.min.js"></script>
-
-<!-- <div class="w3-panel w3-leftbar w3-light-grey">
-      <p><i>Country v Country</i></p>
-      <p>Player & Player v Player & Player</p>
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+  </style>
+  <body>
+    <!-- Links (sit on top) -->
+    <div class="w3-top">
+      <div class="w3-row w3-padding w3-red">
+        <div class="w3-col s3">
+          <a href="#" class="w3-button w3-block w3-red">HOME</a>
+        </div>
+        <div class="w3-col s3">
+          <a href="#men" class="w3-button w3-block w3-red">MEN</a>
+        </div>
+        <div class="w3-col s3">
+          <a href="#women" class="w3-button w3-block w3-red">WOMEN</a>
+        </div>
+        <div class="w3-col s3">
+          <a href="#info" class="w3-button w3-block w3-red">INFO</a>
+        </div>
+      </div>
     </div>
 
-    <div class="w3-panel w3-leftbar w3-light-grey">
-      <p><i>Country v Country</i></p>
-      <p>Player & Player v Player & Player</p>
-    </div>
+    <!-- Header with image -->
+    <header class="bgimg w3-display-container w3-grayscale-min" id="home">
+      <div
+        class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small"
+      >
+        <span class="w3-tag">London 25-26 May</span>
+      </div>
+      <div class="w3-display-middle w3-center">
+        <span class="w3-text-red" style="font-size:50px"
+          >CEV Beach Volleyball Continental Cup</span
+        >
+        <p class="w3-text-red">#ROADTOTOKYO</p>
+        <!-- <img  src="assets/img/home3.png"> -->
+      </div>
+      <div class="w3-display-bottomright w3-center w3-padding-large">
+        <span class="w3-text-white">sideout</span>
+      </div>
+    </header>
 
-    <div class="w3-panel w3-leftbar w3-light-grey">
-      <p><i>Country v Country</i></p>
-      <p>Player & Player v Player & Player</p>
-    </div>
+    <!-- Add a background color and large text to the whole page -->
+    <div class="w3-sand w3-grayscale w3-large">
+      <!-- CEV Beach Volleyball Continental Cup -->
 
-    <div class="w3-panel w3-leftbar w3-light-grey">
-      <p><i>Country v Country</i></p>
-      <p>Player & Player v Player & Player</p>
-    </div>
+      <!-- About Container -->
+      <div class="w3-container" id="men">
+        <div class="w3-content" style="max-width:700px">
+          <h5 class="w3-center w3-padding-64">
+            <span class="w3-tag w3-wide">MEN</span>
+          </h5>
 
-    <div class="w3-panel w3-leftbar w3-light-grey">
-      <p><i>Country v Country</i></p>
-      <p>Player & Player v Player & Player</p>
-    </div>
+          <table>
+            <tr>
+              <th>Team Name</th>
+              <th>Country</th>
+            </tr>
+            <tr>
+              <td>Heidrich/Gerson</td>
+              <td>SUI</td>
+            </tr>
+            <tr>
+              <td>Beeler/Krattiger</td>
+              <td>SUI</td>
+            </tr>
+            <tr>
+              <td>Gregory/Batrane</td>
+              <td>ENG</td>
+            </tr>
+            <tr>
+              <td>Bello/Smith</td>
+              <td>ENG</td>
+            </tr>
+            <tr>
+              <td>Balabekyan/Simoni</td>
+              <td>ARM</td>
+            </tr>
+            <tr>
+              <td>Asmaryan/ Ghasaboghlyan</td>
+              <td>ARM</td>
+            </tr>
+          </table>
 
-    <div class="w3-panel w3-leftbar w3-light-grey">
-      <p><i>Country v Country</i></p>
-      <p>Player & Player v Player & Player</p>
-    </div>
+          <br />
 
-    <div class="w3-panel w3-leftbar w3-light-grey">
-      <p><i>Country v Country</i></p>
-      <p>Player & Player v Player & Player</p>
-    </div>
+          <div
+            class="mxgraph"
+            style="max-width:100%;"
+            data-mxgraph='{"highlight":"#0000ff","lightbox":false,"nav":true,"edit":"_blank","xml":"&lt;mxfile modified=\"2019-05-25T17:10:28.286Z\" host=\"www.draw.io\" agent=\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36\" etag=\"egfEetQMm9PUo96bvJsl\" version=\"10.6.8\" type=\"google\"&gt;&lt;diagram id=\"MdVryoS7M4lzGsO0k9vR\" name=\"Page-1\"&gt;7Vttc6M2EP41nkk+3A0gDOajnUvcm9aZtm7n0o8KyKAeRq4sv/XXVwSBQZLPjm3AsZuZJGiFFvE8q2V3BR3wMF0PKZxFIxKguGMZwboDvnQsy+0Z/G8q2GQC4JqZIKQ4yEQlwRj/i4RQjAsXOEDzyomMkJjhWVXokyRBPqvIIKVkVT1tQuLqVWcwRIpg7MNYlX7DAYsyac9yt/KfEA6j/Mqm42U9U5ifLO5kHsGArEoi8NgBD5QQlh1N1w8oTrHLccnGPe3oLSZGUcIOGfAy+2MJN3iIFqP57Le//4lHo/CT0LKE8ULccMdyYq5vEOAlPwzTwyFFIaEbrnoAGYUJunt8Ht6nw/hvfz6FdAMT3juM4By+kjCKefuu//voPlfGO0v6BB5sk4NMySIJUDpPg3evIszQeAb9tHfFrYrLIjaNecssRi8RZWi9EwqzAJgbJiJTxNL5G2KALSgRNmnm7dWWYTM33KjEriNkUBhVWGje4s4PBPTvoME6hIYBV0S4+vEUs6hMwQDG8BV9z0gY4ylJcG3oT3AcP5CY0LexIICoN/G5fM4o+Y5KPY7fQ6+TWviygNUyX0DDl4QqSoJ+6n94KyEJqqKI1pi9lI7/SsH/3BWtL2vBxVtjIxrZFVCg+CsJRT4LsqA+2rfqVbRLcHY1aOYyimLI8LI6DR3E4gq/EswnWJBZsJKvPk9iKZu+GFV2aPsUuZIiBmmImKLojfHito83AvtEIzic0OxG9vmPSyHUcqzjCDW7kiLb42uiSUq7DVF6OVR90LXnnOqAE379l9zNpo2SC06bWx/81nq/E967Zt2LMgTzSEMA1h5FNRuCqxgCD4x+6T/zI+Pb1+dxHgO90jz+uRvyHADxUMkYQeZH/H9C0htKEOJR0L1iR00HpzKiRWRTjnacJqMd09OsNiU85WlQQHEK6NMQ0TlJ7sZ/fr2iLAHoeGg2SzAO4WGAUIy4tT/9TCFjOES0TMSt5Qq22zpruhz7IyULXpsPqiI7kFfhqRGL3fCDKmf9o5pBqWbVhhm4EnvWmcygazRsBrrSQeZ657PUKYuSmxyjaOIYPClHLYX7Lqtp/RkqBzM2aDuYsZpK2y8ltFcc3YdZKk1l44cUWMBFUXp02t6TKJXdaN2Uqula7uBMhVvudViV0GrgKAgvR5lCBGMcJrzpc555KAwGqQ/DPoz7omOKgyC9jNYDVn3kGZygvN1gaXygLiSVyTmfD+z9T0PKQ8s0ADUzyGlQPd210gCctldDvpt00zTY3dZp2B0ZH1pl0u2QXmZpya2A7+ieCC5Qwa9vQ1MXFb+ztLTrNYFrKSxVOXPN1jk7NT5uuaIAWo6ppTUo72AdHFNLpQmn22xMDU7dCzuc0r1pUuZGWqNUYsK1j6TU7Epr3eo2vBEN1ESpHlIvhivgffZKP70zLUb7h2rrZlHNs97podvfpgatlv8VPntnMRMAJLXyO0h1G8buHdVbqAI7upyv0Spw/mTQ5HxAget6cj4p5DEODGFry/ns3RWQG6LBa5sGT029r7jyYUnO39SUPmyNM6oPfjX5Nm4Ifs0bGs3Cr+bRN2T9lubjh2bhV/PXa7Z+y6vCn78s3Rr8aqZ51dZvVuAHmmdvs/CrKeI1W78Ev60pop4Jft7cfluX5W3bDxTB438=&lt;/diagram&gt;&lt;/mxfile&gt;"}'
+          ></div>
+          <script
+            type="text/javascript"
+            src="https://www.draw.io/js/viewer.min.js"
+          ></script>
 
-    <div class="w3-panel w3-leftbar w3-light-grey">
-      <p><i>Country v Country</i></p>
-      <p>Player & Player v Player & Player</p>
-    </div> -->
+          <div class="w3-panel w3-leftbar w3-light-grey">
+            <p><i>Gregory/Batrane(ENG) v Asmaryan/Ghasaboghlyan(ARM)</i></p>
+            <p>2-0 (21-9, 21-9)</p>
+          </div>
 
-    
+          <div class="w3-panel w3-leftbar w3-light-grey">
+            <p><i>Bello/Smith(ENG) v Balabekyan/Simoni(ARM)</i></p>
+            <p>2-0 (21,18, 21-17)</p>
+          </div>
 
-  </div>
-</div>
+          <div class="w3-panel w3-leftbar w3-light-grey">
+            <p><i>Heidrich/Gerson(SUI) v Asmaryan/Ghasaboghlyan(ARM)</i></p>
+            <p>2-0 (21-5, 21-6)</p>
+          </div>
 
-<!-- Menu Container -->
-<div class="w3-container" id="women">
-  <div class="w3-content" style="max-width:700px">
- 
-    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">WOMEN</span></h5>
+          <div class="w3-panel w3-leftbar w3-light-grey">
+            <p><i>Beeler/Krattiger(SUI) v Balabekyan/Simoni(ARM)</i></p>
+            <p>TBC</p>
+          </div>
 
- <table>
-  <tr>
-    <th>Country</th>
-  </tr>
-  <tr>
-    <td>ENGLAND</td>
-  </tr>
-  <tr>
-    <td>FRANCE</td>
-  </tr>
-  <tr>
-    <td>BELARUS</td>
-  </tr>
-  <tr>
-    <td>NORTHERN IRELAND</td>
-  </tr>
-</table>
-<br>
+          <div class="w3-panel w3-leftbar w3-light-grey">
+            <p><i>Heidrich/Gerson(SUI) v Bello/Smith(ENG)</i></p>
+            <p>26 May 12:00:00 PM</p>
+          </div>
 
-  <div class="mxgraph" style="max-width:100%;" data-mxgraph="{&quot;highlight&quot;:&quot;#0000ff&quot;,&quot;lightbox&quot;:false,&quot;nav&quot;:true,&quot;edit&quot;:&quot;_blank&quot;,&quot;xml&quot;:&quot;&lt;mxfile modified=\&quot;2019-05-24T23:35:40.588Z\&quot; host=\&quot;www.draw.io\&quot; agent=\&quot;Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36\&quot; etag=\&quot;gGaiC_q0vUuwXuXbKqlJ\&quot; version=\&quot;10.6.8\&quot; type=\&quot;google\&quot;&gt;&lt;diagram id=\&quot;Ss-8ob18OZmgthQvd1sw\&quot; name=\&quot;Page-1\&quot;&gt;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&lt;/diagram&gt;&lt;/mxfile&gt;&quot;}"></div>
-<script type="text/javascript" src="https://www.draw.io/js/viewer.min.js"></script>
-  
-  <!-- <div class="w3-panel w3-leftbar w3-light-grey">
-      <p><i>Country v Country</i></p>
-      <p>Player & Player v Player & Player</p>
-    </div>
+          <div class="w3-panel w3-leftbar w3-light-grey">
+            <p><i>Beeler/Krattiger(SUI) v Gregory/Batrane(ENG)</i></p>
+            <p>26 May 13:00:00 PM</p>
+          </div>
+        </div>
+      </div>
 
-    <div class="w3-panel w3-leftbar w3-light-grey">
-      <p><i>Country v Country</i></p>
-      <p>Player & Player v Player & Player</p>
-    </div>
+      <!-- Menu Container -->
+      <div class="w3-container" id="women">
+        <div class="w3-content" style="max-width:700px">
+          <h5 class="w3-center w3-padding-48">
+            <span class="w3-tag w3-wide">WOMEN</span>
+          </h5>
 
-    <div class="w3-panel w3-leftbar w3-light-grey">
-      <p><i>Country v Country</i></p>
-      <p>Player & Player v Player & Player</p>
-    </div>
+          <table>
+            <tr>
+              <th>Team Name</th>
+              <th>Country</th>
+            </tr>
+            <tr>
+              <td>Jupiter/Charmereau</td>
+              <td>FRA</td>
+            </tr>
+            <tr>
+              <td>Placette/Vieira</td>
+              <td>FRA</td>
+            </tr>
+            <tr>
+              <td>Palmer/Grimson</td>
+              <td>ENG</td>
+            </tr>
+            <tr>
+              <td>Evans/Austin</td>
+              <td>ENG</td>
+            </tr>
+            <tr>
+              <td>Siakretava/Chabai</td>
+              <td>BLR</td>
+            </tr>
+            <tr>
+              <td>Borys/Karabinovich</td>
+              <td>BLR</td>
+            </tr>
+            <tr>
+              <td>Patterson/Hardy</td>
+              <td>NIR</td>
+            </tr>
+            <tr>
+              <td>Montgomery/Kavanagh-Dick</td>
+              <td>NIR</td>
+            </tr>
+          </table>
 
-    <div class="w3-panel w3-leftbar w3-light-grey">
-      <p><i>Country v Country</i></p>
-      <p>Player & Player v Player & Player</p>
-    </div>
+          <br />
 
-    <div class="w3-panel w3-leftbar w3-light-grey">
-      <p><i>Country v Country</i></p>
-      <p>Player & Player v Player & Player</p>
-    </div> -->
+          <div
+            class="mxgraph"
+            style="max-width:100%;"
+            data-mxgraph='{"highlight":"#0000ff","lightbox":false,"nav":true,"edit":"_blank","xml":"&lt;mxfile modified=\"2019-05-25T17:09:35.224Z\" host=\"www.draw.io\" agent=\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36\" etag=\"m5aO8vwg2og1URGsI2rK\" version=\"10.6.8\" type=\"google\"&gt;&lt;diagram id=\"Ss-8ob18OZmgthQvd1sw\" name=\"Page-1\"&gt;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&lt;/diagram&gt;&lt;/mxfile&gt;"}'
+          ></div>
+          <script
+            type="text/javascript"
+            src="https://www.draw.io/js/viewer.min.js"
+          ></script>
 
+          <div class="w3-panel w3-leftbar w3-light-grey">
+            <p><i>Placette/Vieira(FRA) v Patterson/Hardy(NIR)</i></p>
+            <p>2-0 (21-7, 21-9)</p>
+          </div>
 
-    
-  </div>
-</div>
+          <div class="w3-panel w3-leftbar w3-light-grey">
+            <p><i>Evans/Austin(ENG) v Siakretava/Chabai(BLR)</i></p>
+            <p>1-2 (17-21, 22-20, 8-15)</p>
+          </div>
 
-<!-- Contact/Area Container -->
-<div class="w3-container" id="info" style="padding-bottom:32px;">
-  <div class="w3-content" style="max-width:700px">
-    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">MORE INFO</span></h5>
-    <!-- <p>Find us at some address at some place.
+          <div class="w3-panel w3-leftbar w3-light-grey">
+            <p>
+              <i>Jupiter/Charmereau(FRA) v Montgomery/Kavanagh-Dick(NIR)</i>
+            </p>
+            <p>2-0 (21-10, 21-7)</p>
+          </div>
+
+          <div class="w3-panel w3-leftbar w3-light-grey">
+            <p><i>Palmer/Grimson(ENG) v Borys/Karabinovich(BLR)</i></p>
+            <p>2-0 (21-18, 21-17)</p>
+          </div>
+
+          <div class="w3-panel w3-leftbar w3-light-grey">
+            <p><i>Siakretava/Chabai(BLR) v Palmer/Grimson(ENG)</i></p>
+            <p>2-1 (24-22, 20-22, 17-15)</p>
+          </div>
+
+          <div class="w3-panel w3-leftbar w3-light-grey">
+            <p><i>Jupiter/Charmereau(FRA) v Borys/Karabinovich(BLR)</i></p>
+            <p>2-0 (21-6, 21-8)</p>
+          </div>
+
+          <div class="w3-panel w3-leftbar w3-light-grey">
+            <p><i>Placette/Vieira(FRA) v Siakretava/Chabai(BLR)</i></p>
+            <p>2-1 (17-21, 21-16, 17-15)</p>
+          </div>
+
+          <div class="w3-panel w3-leftbar w3-light-grey">
+            <p><i>Evans/Austin(ENG) v Patterson/Hardy(NIR)</i></p>
+            <p>26 May</p>
+          </div>
+
+          <div class="w3-panel w3-leftbar w3-light-grey">
+            <p><i>Palmer/Grimson(ENG) v Montgomery/Kavanagh-Dick(NIR)</i></p>
+            <p>26 May</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact/Area Container -->
+      <div class="w3-container" id="info" style="padding-bottom:32px;">
+        <div class="w3-content" style="max-width:700px">
+          <h5 class="w3-center w3-padding-48">
+            <span class="w3-tag w3-wide">MORE INFO</span>
+          </h5>
+          <!-- <p>Find us at some address at some place.
       <span class="w3-tag"><a href="https://www.google.com/maps/place/SideOut/@51.5615576,-0.0228441,17z/data=!3m1!4b1!4m5!3m4!1s0x48761d9d40795f4f:0xcc55fc7363cf5ce7!8m2!3d51.5615543!4d-0.0206501"> Google Maps</a></span>
 
     
 
     </p> -->
-    <!-- <img src="/w3images/map.jpg" class="w3-image" style="width:100%"> -->
-    <p>Venue Address & Directions :</p>
-    <p>🗺️ <span class="w3-tag"><a href="https://www.google.com/maps/place/SideOut/@51.5615576,-0.0228441,17z/data=!3m1!4b1!4m5!3m4!1s0x48761d9d40795f4f:0xcc55fc7363cf5ce7!8m2!3d51.5615543!4d-0.0206501"> Google Maps</a></span></p>
-<p>📍 Feel Good Too Centre, 1 Pavilion Walk, Leyton, London, E10 5UE.</p>
-<p>✅ Public Transport: Access is via Ive Farm Close, E10 5HQ:</p>
-<p>🚇 20-minute walk from Leyton tube station</p>
-<p>🚆15-minute walk from Leyton Midland Road overground station</p>
-<p>🚌Short bus ride from Leyton tube station to 'Villiers Close' bus stop which is a 3-minute walk to the venue:
-bus 158 (every 7-10 mins); or 
-bus 58 (every 10-14 mins).</p>
-<p>Live streaming :</p> 
-<p>For all of you that cannot make it, there will be a live streaming (UK only) through our <span class="w3-tag"><a href="https://www.facebook.com/SideOutLtd/"> facebook page</a></span>  and  <span class="w3-tag"><a href="https://www.youtube.com/user/SideOutUK">youtube channel</a></span> so stay tuned!</p>
+          <!-- <img src="/w3images/map.jpg" class="w3-image" style="width:100%"> -->
+          <p>Venue Address & Directions :</p>
+          <p>
+            🗺️
+            <span class="w3-tag"
+              ><a
+                href="https://www.google.com/maps/place/SideOut/@51.5615576,-0.0228441,17z/data=!3m1!4b1!4m5!3m4!1s0x48761d9d40795f4f:0xcc55fc7363cf5ce7!8m2!3d51.5615543!4d-0.0206501"
+              >
+                Google Maps</a
+              ></span
+            >
+          </p>
+          <p>
+            📍 Feel Good Too Centre, 1 Pavilion Walk, Leyton, London, E10 5UE.
+          </p>
+          <p>✅ Public Transport: Access is via Ive Farm Close, E10 5HQ:</p>
+          <p>🚇 20-minute walk from Leyton tube station</p>
+          <p>🚆15-minute walk from Leyton Midland Road overground station</p>
+          <p>
+            🚌Short bus ride from Leyton tube station to 'Villiers Close' bus
+            stop which is a 3-minute walk to the venue: bus 158 (every 7-10
+            mins); or bus 58 (every 10-14 mins).
+          </p>
+          <p>Live streaming :</p>
+          <p>
+            For all of you that cannot make it, there will be a live streaming
+            (UK only) through our
+            <span class="w3-tag"
+              ><a href="https://www.facebook.com/SideOutLtd/">
+                facebook page</a
+              ></span
+            >
+            and
+            <span class="w3-tag"
+              ><a href="https://www.youtube.com/user/SideOutUK"
+                >youtube channel</a
+              ></span
+            >
+            so stay tuned!
+          </p>
 
-    <!--  -->
-  </div>
-</div>
+          <!--  -->
+        </div>
+      </div>
 
-<!-- End page content -->
-</div>
+      <!-- End page content -->
+    </div>
 
-<!-- Footer -->
-<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
-  <p>Powered by <a href="https://www.sideout.co.uk/" title="W3.CSS" target="_blank" class="w3-hover-text-green">© 2019 SideOut Ltd. </a></p>
-  <img src="assets/img/sideout.png"> <img src="assets/img/volley.png"> <img src="assets/img/forest.png"> <img src="assets/img/fivb.png"> <img src="assets/img/cev.png">
-</footer>
+    <!-- Footer -->
+    <footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+      <p>
+        Powered by
+        <a
+          href="https://www.sideout.co.uk/"
+          title="W3.CSS"
+          target="_blank"
+          class="w3-hover-text-green"
+          >© 2019 SideOut Ltd.
+        </a>
+      </p>
+      <img src="assets/img/sideout.png" /> <img src="assets/img/volley.png" />
+      <img src="assets/img/forest.png" /> <img src="assets/img/fivb.png" />
+      <img src="assets/img/cev.png" />
+    </footer>
 
-<!-- <script>
+    <!-- <script>
 // Tabbed Menu
 function openMenu(evt, menuName) {
   var i, x, tablinks;
@@ -260,6 +368,5 @@ function openMenu(evt, menuName) {
 }
 document.getElementById("myLink").click();
 </script> -->
-
-</body>
+  </body>
 </html>
